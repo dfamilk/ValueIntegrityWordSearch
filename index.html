@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Value Integrity Word Search</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/lgu7qnq.css">
+        <link href ="style.css" rel ="stylesheet">
+
+        <script src = "main.js"></script>
+
+    </head>
+
+
+    <body>
+        <div id="wrapper">
+            <header>
+                <div class="hero">
+                    <div class="heroLogo">
+                        <img src="./img/SVG/DFAValueIntegrityLockup.svg">
+                    </div>
+                    <div class="heroCopy">
+                        <h1>Value Integrity Word Search</h1>
+                    </div>
+                    <div class="instructions">
+                            <p>
+                                Test your knowledge about the words in the Code of Conduct. Everyone who completes this word search will be entered into a prize drawing. Winners will be chosen at each location Friday, Jan. 17, so make sure to complete the word search by 4 p.m. CST, Thursday, Jan. 16.                               
+                            </p>
+                            <p>
+                                To get started, complete these questions. Then, you'll be taken to the word search.
+                            </p>
+                    </div>
+                    
+                </div>   
+            </header>  
+
+            <aside class="sidebar">     
+                    <h3>Word Bank</h3>               
+                        <div class="wordBank">
+                             <ul>                                
+                                <li>Retaliation</li>
+                                <li>Everybody</li>
+                                <li>Helpline</li>
+                                <li>Truthfully</li>
+                                <li>Tolerate</li>
+                                <li>Everyone</li>
+                                <li>Environmental</li>
+                                <li>Honestly</li>
+                                <li>Code</li>
+                                <li>Policy</li>
+                                <li>Ethics</li>
+                                <li>Raise It</li>
+                                <li>Integrity</li>
+                                <li>Rules</li>
+                                <li>Safety</li>
+                                <li>Best</li>
+                                <li>Regulations</li>
+                                <li>Forbid</li>
+                            </ul>
+                        </div>
+            </aside>
+            <main>                
+                <form id = "quiz" name = "quiz">
+                    <!--  ! Question 1 -->
+                    <p class = "questions"> <span style="font-weight:600;">1.</span> We are committed to conducting business legally, fairly, and  <input id = "textbox1" type = "text" name = "question1" autocomplete="off">.</p>
+
+                    <!--  ! Question 2 -->
+                    <p class = "questions"> <span style="font-weight:600;">2.</span> The <input id = "textbox2" type = "text" name = "question2" autocomplete="off"> is intended to help employees recognize potential ethical or legal issues, direct you to the appropriate resources, and understand your responsibility to report known or suspected violations of the Code and its Value Integrity policies.</p>
+
+                    <!--  ! Question 3 -->
+                    <p class = "questions"> <span style="font-weight:600;">3.</span> <input id = "textbox3" type = "text" name = "question3" autocomplete="off"> is the foundation on which we build relationships and trust with each other.</p>
+
+                    <!--  ! Question 4 -->
+                    <p class = "questions"> <span style="font-weight:600;">4.</span> Recognizing the responsibility to act with integrity applies to: <input id = "textbox4" type = "text" name = "question4" autocomplete="off">. Every day. Every way.</p>
+
+                    <!--  ! Question 5 -->
+                    <p class = "questions"> <span style="font-weight:600;">5.</span>	Employees are expected to raise concerns without fear of <input id = "textbox5" type = "text" name = "question5" autocomplete="off">.</p>
+
+                    <!--  ! Question 6 -->
+                    <p class = "questions"> <span style="font-weight:600;">6.</span> The Cooperative’s <input id = "textbox6" type = "text" name = "question6" autocomplete="off"> Policy is the foundation of our commitment to integrity.</p>
+
+                    <!--  ! Question 7 -->
+                    <p class = "questions"> <span style="font-weight:600;">7.</span> The Cooperative does not <input id = "textbox7" type = "text" name = "question7" autocomplete="off"> bullying, harassment, or discrimination in the workplace, or any other work-related settings, such as business trips or business-related social events.</p>
+
+                    <!--  ! Question 8 -->
+                    <p class = "questions"> <span style="font-weight:600;">8.</span>	Employees are our most important assets and their <input id = "textbox8" type = "text" name = "question8" autocomplete="off"> and health is of primary concern.</p>
+
+                    <!--  ! Question 9 -->
+                    <p class = "questions"> <span style="font-weight:600;">9.</span>	Employees are encouraged to use the <input id = "textbox9" type = "text" name = "question9" autocomplete="off"> process if they suspect a violation of the Code.</p>
+
+                    <!--  ! Question 10 -->
+                    <p class = "questions"> <span style="font-weight:600;">10.</span>	We take our responsibility to be good <input id = "textbox10" type = "text" name = "question10" autocomplete="off"> stewards seriously and recognize the value of protecting the environment.</p>
+
+                    <!--  ! Question 11 -->
+                    <p class = "questions"> <span style="font-weight:600;">11.</span> We all have an individual <input id = "textbox11" type = "text" name = "question11" autocomplete="off"> to carry out business activities in accordance with the highest standards of ethical conduct.</p>
+
+                    <!--  ! Question 12 -->
+                    <p class = "questions"> <span style="font-weight:600;">12.</span> Employees are expected to act in the <input id = "textbox12" type = "text" name = "question12" autocomplete="off"> interest of the Cooperative at all times.</p>
+
+
+                    <div class="buttons">
+                        <input id = "button" type = "button" value = "Check my answers" onclick = "check();">
+                        <div id = "after_submit">
+                                <p id = "number_correct"></p>
+                                <p id = "message"></p>
+                        </div>                         
+                    </div>
+                </form> 
+
+                <div id="formSubmission">                            
+                        <form action="https://fs12.formsite.com/cehresman/owfzuels3e/index.html" method="get" id="form">
+                            <button type="submit">Next Step</button>
+                        </form>
+                </div> 
+
+            </main>         
+        </div> 
+    </body>
+</html>
