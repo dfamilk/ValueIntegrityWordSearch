@@ -16,7 +16,7 @@ function check(){
 	var correct = 0;
 	
 // ! Question 1 
-if (question1 == "Honestly" || question1 == "honestly" ) {
+if (question1 === "Honestly" || question1 === "honestly" || question1 === "HONESTLY") {
 	document.getElementById("textbox1").style.color = "green";
 	correct++;	
 } else {
@@ -24,7 +24,7 @@ if (question1 == "Honestly" || question1 == "honestly" ) {
 };
 
 // ! Question 2 
-if (question2 == "Code" || question2 == "code") {
+if (question2 == "Code" || question2 == "code" || question2 === "CODE") {
 	document.getElementById("textbox2").style.color = "green";
 	correct++;
 } else {
@@ -32,7 +32,7 @@ if (question2 == "Code" || question2 == "code") {
 };
 
 // ! Question 3 
-if (question3 == "Integrity" || question3 == "integrity") {
+if (question3 == "Integrity" || question3 == "integrity" || question3 === "INTEGRITY") {
 	document.getElementById("textbox3").style.color = "green";
 	correct++;		
 }   else {
@@ -40,7 +40,7 @@ if (question3 == "Integrity" || question3 == "integrity") {
 }
 
 // ! Question 4 	
-if (question4 == "Everyone" || question4 == "everyone") {
+if (question4 == "Everyone" || question4 == "everyone" || question4 === "EVERYONE") {
 	document.getElementById("textbox4").style.color = "green";
 	correct++;		
 }	else {
@@ -48,7 +48,7 @@ if (question4 == "Everyone" || question4 == "everyone") {
 }
 
 // ! Question 5 
-if (question5 == "Retaliation" || question5 == "retaliation") {
+if (question5 == "Retaliation" || question5 == "retaliation" || question5 === "RETALIATION") {
 	document.getElementById("textbox5").style.color = "green";
 	correct++;		
 } else {
@@ -56,7 +56,7 @@ if (question5 == "Retaliation" || question5 == "retaliation") {
 }
 
 // ! Question 6 
-if (question6 == "Ethics" || question6 == "ethics") {
+if (question6 == "Ethics" || question6 == "ethics" || question6 === "ETHICS") {
 	document.getElementById("textbox6").style.color = "green";
 	correct++;		
 	} else {
@@ -64,7 +64,7 @@ if (question6 == "Ethics" || question6 == "ethics") {
 }	
 
 // ! Question 7 
-if (question7 == "Tolerate" || question7 == "tolerate") {
+if (question7 == "Tolerate" || question7 == "tolerate" || question7 === "TOLERATE") {
 	document.getElementById("textbox7").style.color = "green";
 	correct++;		
 } else {
@@ -72,7 +72,7 @@ if (question7 == "Tolerate" || question7 == "tolerate") {
 }
 	
 // ! Question 8 
-if (question8 == "Safety" || question8 == "safety") {
+if (question8 == "Safety" || question8 == "safety" || question8 === "SAFETY") {
 	document.getElementById("textbox8").style.color = "green";
 	correct++;		
 } else {
@@ -80,7 +80,7 @@ if (question8 == "Safety" || question8 == "safety") {
 }
 
 // ! Question 9 
-if (question9 === "Raise It" || question9 === "RaiseIt" || question9 === "raise it") {
+if (question9 === "Raise It" || question9 === "RaiseIt" || question9 === "raise it" || question9 === "RAISE IT" || question9 === "RAISEIT") {
 	document.getElementById("textbox9").style.color = "green";
 	correct++;		
 } else {
@@ -88,7 +88,7 @@ if (question9 === "Raise It" || question9 === "RaiseIt" || question9 === "raise 
 }
 
 // ! Question 10 
-if (question10 == "Environmental" || question10 == "environmental") {
+if (question10 == "Environmental" || question10 == "environmental" || question10 === "ENVIRONMENTAL") {
 	document.getElementById("textbox10").style.color = "green";
 	correct++;		
 } else {
@@ -96,7 +96,7 @@ if (question10 == "Environmental" || question10 == "environmental") {
 }
 
 // ! Question 11 
-if (question11 == "Responsibility" || question11 == "responsibility") {
+if (question11 == "Responsibility" || question11 == "responsibility" || question11 === "RESPONSIBILITY") {
 	document.getElementById("textbox11").style.color = "green";
 	correct++;		
 } else {
@@ -104,7 +104,7 @@ if (question11 == "Responsibility" || question11 == "responsibility") {
 }
 	
 // ! Question 12 
-if (question12 == "Best" || question12 == "best") {
+if (question12 == "Best" || question12 == "best" || question12 === "BEST") {
 	document.getElementById("textbox12").style.color = "green";
 	correct++;		
 } else {
@@ -121,5 +121,3 @@ document.getElementById("formSubmission")
 	}
 
 }
-
-
