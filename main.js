@@ -121,5 +121,3 @@ document.getElementById("formSubmission")
 	}
 
 }
-
-
