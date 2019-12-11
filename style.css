@@ -85,7 +85,7 @@ aside {
 
 aside h3 {
 	padding-left: 25px;
-	font-size: 1.5rem;
+	font-size: 1.35rem;
 	margin: 10px 0;
 	font-weight: bold;
 }
@@ -141,6 +141,7 @@ button {
 	display: inline-block;
 	border: none;
 	transition: all 0.4s ease 0s;
+	margin-top: 10px;
 }
 
 #button:hover {
