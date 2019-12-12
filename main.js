@@ -114,11 +114,10 @@ if (question12 == "Best" || question12 == "best" || question12 === "BEST") {
 document.getElementById("after_submit").style.visibility = "visible";
 document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 
-// document.getElementById("formSubmission")
-// 	if (correct === 12) {
-// 		formSubmission.style.display= "block";
-// 		console.log("working");
-// 	}
+document.getElementById("formSubmission")
+	if (correct === 12) {
+		formSubmission.style.display= "block";
+	}
 }
 
 
