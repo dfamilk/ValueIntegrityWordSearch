@@ -73,10 +73,10 @@ header {
 
 .instructions {
 	color: white;
-	max-width: 75%;
+	max-width: 65%;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 1.10rem;
+	font-size: 1rem;
 }
 
 aside {
@@ -162,7 +162,7 @@ button {
 }
 
 #formSubmission {
-	display: none;
+	display: block;
 }
 
 #formSubmission button {
@@ -192,25 +192,31 @@ button {
 	text-align: center;
 }
 
-.buttons {
+/* .buttons {
 	display: flex;
 	flex-direction: column;
 	width: 60%;
 	justify-content: center;
 	margin: 0 auto;
+} */
+
+.example_a {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: var(--barn-red);
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
 }
 
-#number_correct {
-	color: black;
-	font-size: 1em;
-	font-weight: 400;
-	text-align: center;
-}
-
-.buttons {
-	display: flex;
-	flex-direction: column;
-	width: 60%;
-	justify-content: center;
-	margin: 0 auto;
+.example_a:hover {
+		background: #434343;
+		letter-spacing: 1px;
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.4s ease 0s;
 }

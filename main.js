@@ -114,10 +114,25 @@ if (question12 == "Best" || question12 == "best" || question12 === "BEST") {
 document.getElementById("after_submit").style.visibility = "visible";
 document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 
-document.getElementById("formSubmission")
-	if (correct === 12) {
-		formSubmission.style.display= "block";
-		console.log("working");
-	}
-
+// document.getElementById("formSubmission")
+// 	if (correct === 12) {
+// 		formSubmission.style.display= "block";
+// 		console.log("working");
+// 	}
 }
+
+
+//TODO: Answers:
+//* 1 Honestly
+//* 2 Code
+//* 3 Integrity
+//* 4 Everyone
+//* 5 Retaliation
+//* 6 Ethics
+//* 7 Tolerate
+//* 8 Safety
+//* 9 Raise It
+//* 10 Environmental
+//* 11 Responsibility
+//* 12 Best
+
