@@ -163,7 +163,6 @@ button {
 
 #formSubmission {
 	display: none;
-	padding-top: 25px;
 }
 
 #formSubmission button {
@@ -171,7 +170,6 @@ button {
 	text-transform: uppercase;
 	text-decoration: none;
 	background: #ffffff;
-	padding: 20px;
 	border: 4px solid var(--barn-red) !important;
 	display: flex;
 	margin: 0 auto;
@@ -200,13 +198,6 @@ button {
 	width: 60%;
 	justify-content: center;
 	margin: 0 auto;
-}
-
-#formSubmission button:hover {
-	color: #ffffff !important;
-	background: var(--barn-red);
-	border-color: var(--barn-red);
-	transition: all 0.4s ease 0s;
 }
 
 #number_correct {
