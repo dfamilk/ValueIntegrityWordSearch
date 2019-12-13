@@ -169,6 +169,7 @@ button {
 
 #formSubmission {
 	display: none;
+	text-align: center;
 }
 
 #formSubmission button {
