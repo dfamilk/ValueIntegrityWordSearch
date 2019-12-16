@@ -80,7 +80,7 @@ if (question8 == "Safety" || question8 == "safety" || question8 === "SAFETY") {
 }
 
 // ! Question 9 
-if (question9 === "Raise It" || question9 === "RaiseIt" || question9 === "raise it" || question9 === "RAISE IT" || question9 === "RAISEIT") {
+if (question9 === "Raise It" || question9 === "RaiseIt" || question9 === "raise it" || question9 === "RAISE IT" || question9 === "RAISEIT" || question9 === "Raise it") {
 	document.getElementById("textbox9").style.color = "green";
 	correct++;		
 } else {
