@@ -13,7 +13,7 @@ function check(){
 	var question11 = document.quiz.question11.value;
 	var question12 = document.quiz.question12.value;
 
-	let question1Trim = question1.trimEnd(); 
+	let question1Trim = question1.trim(); 
 	let question2Trim = question2.trim(); 
 	let question3Trim = question3.trim(); 
 	let question4Trim = question4.trim(); 
